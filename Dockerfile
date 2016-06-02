@@ -11,4 +11,5 @@ RUN apt-get update \
  && ./configure --enable-pythoninterp --with-python-config-dir=$(python2.7-config --configdir) \
  && make \
  && make install \
+ && cp /usr/local/bin/vim /usr/local/bin/vi
  && rm -rf ~/vim
