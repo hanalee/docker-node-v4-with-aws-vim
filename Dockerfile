@@ -1,4 +1,4 @@
-FROM node:4.4.3
+FROM node:4.4.5
 MAINTAINER Alfred UC b6pzeusbc54tvhw5jgpyw8pwz2x6gs@gmail.com
 
 RUN apt-get update \
